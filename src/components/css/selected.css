@@ -1,0 +1,126 @@
+.scnt{
+    background-color: white;
+    margin-top:20px;
+    border: solid rgba(0, 0, 0, 0.205) thin;
+    height:90vh;
+}
+#hc{
+    display: flex;
+    height:90px;
+    align-items: center;
+    padding: 20px;
+    border-bottom: solid rgba(104, 104, 104, 0.288) thin;
+    margin-bottom:50px;
+}
+#hc>h2{
+    margin: 0;
+    margin-right: 50px;
+    font-size:22px;
+    font-weight:400;
+}
+#hc>img{
+    height: inherit;
+    border: solid black thin;
+}
+.scnt>form{
+    margin: auto;
+    padding:60px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.scnt>form>h5{
+    margin: 3px;
+    font-size: 17px;
+    font-weight: 400;
+} 
+.scnt>form>input,.scnt>form>textarea{
+    border: solid rgba(0, 0, 0, 0.137) thin;
+    outline: none;
+    font-size:15px;
+    padding: 9px;
+    background-color:rgba(245, 245, 245, 0.342);
+    margin-bottom: 30px;
+}
+
+.scnt>form>textarea{
+    resize: vertical;
+}
+#er{
+    margin-top:-30px;
+    padding: 2px 20px 2px 20px;
+    color: rgba(255, 0, 0, 0.795);
+    text-transform: capitalize;
+    border: solid rgba(255, 0, 0, 0.137) thin;
+    background-color:rgba(235, 144, 144, 0.089);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px ;
+}
+
+.preview{
+    position: absolute;
+    top: 10%;
+    margin: auto;
+    width: 100%;
+    
+}
+.pcnt{
+    position: relative;
+    margin:auto;
+    box-shadow: 0 0 0 500px rgba(0, 0, 0, 0.767);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.pcnt>img{
+    /* position:absolute; */
+    width: 100%;
+}
+.details{
+    position: absolute ;
+    top: 30%;
+    padding:10px;
+    width: 100%;
+    
+}
+
+.details>h1{  
+    font-size:2.1vw;
+    font-weight: 500;
+    text-shadow: 0 0 10px   rgba(255, 255, 255, 0.493);
+}
+.details>h2{
+    margin: auto;  
+    font-size:1vw;
+    font-weight: 400;
+    width: 80%;
+    word-break: break-word;
+}
+#btn{
+    border: solid rgba(226, 226, 226, 0.767) thin;
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:black;
+    color: white;
+    font-size:17px;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-bottom:20px;
+}
+
+@media screen and (max-width:700px) {
+    #hc>h2{
+        font-size:17px;
+    }
+    .scnt>form {
+        width: 90%;
+        padding: 5px;
+    }
+    #btn{
+        width:80%
+    }
+
+}
